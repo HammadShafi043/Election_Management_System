@@ -115,6 +115,29 @@ This project is designed for academic use, small-scale election simulations, or 
 │   ├── SignUpForm.java                   # GUI form for registration
 │   ├── Server.java                       # Server-side code (TCP listener)
 │   └── AdminPanel.java                   # Admin management panel
+## 📸 Screenshots
+
+### 🔐 Login Screen
+![Login Screen](screenshots/login_screen.png)
+
+### 🧑‍💼 Admin Panel
+![Admin Panel](screenshots/admin_panel.png)
+
+### 🗳️ Voting Interface
+![Voting Interface](screenshots/voting_interface.png)
+
+## 🛠️ Database Setup
+
+1. Import `election_db.sql` using phpMyAdmin or MySQL Workbench.
+2. Update DB connection credentials in `DBConnection.java`.
+
+## 🧭 Scope
+
+- Digitalize election process for small to medium organizations
+- Ensure secure, tamper-proof voting
+- Role-based access for Admins and Voters
+
+---
 ```
 
 ---
